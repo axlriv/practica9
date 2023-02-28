@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Práctica 4 Uso de tablas HTML entrega</title>
+</head>
+<body>
+<table>
+	<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  table th {
+    background-color: #d3d3d3;
+    color: white;
+    text-align: left;
+    padding: 8px;
+  }
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  table tr:hover {
+    background-color: #ddd;
+  }
+  .image {
+    width: 100px;
+    height: auto;
+  }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Generación de la Web</th>
+      <th>Características</th>
+      <th colspan="2">Imagen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Web 1.0</td>
+      <td>Fue la primera generación de la web y fue concebida como una web que solo podía buscar y leer contenidos. Los usuarios no pueden agregar contenido a voluntad, ya que esta operación solo se encomienda a usuarios expertos (técnicos, informáticos o de sistema). Web 1.0 comenzó como sitios web para que las empresas difundieran información a las personas (Aghaei, 2012). Esta información se presenta a los usuarios de manera limitada a través de páginas estáticas.</td>
+      <td><img class="image" src="web1.0.png" alt="Web 1.0"></td>
+      <td rowspan="2"><img class="image" src="2c9d9f0da91fdc1cc636c7afaef070a5a8ca59ff_original.jpg" alt="Imagen de la web 1 y web 2 comparacion"></td>
+    </tr>
+    <tr>
+      <td>Web 2.0</td>
+      <td>Se caracteriza por permitir que cualquier tipo de usuario pueda crear y compartir información sin requerir que tengan habilidades técnicas o sean expertos en programación o computación . Este sitio web tiene un enfoque particular en el contenido generado por el usuario, la usabilidad y la interoperabilidad para los usuarios finales. Debido a estas características, es la forma más fácil para que cualquier usuario interactúe, cree contenido y comparta contenido en la Web; no se requiere experiencia técnica o técnica</td>
+      <td><img class="image" src="web2.0.png" alt="Web 2.0"></td>
+    </tr>
+    <tr>
+      <td>Web 3.0</td>
+      <td>La web 3.0 es el tipo de internet más actual, cuyas características principales son la democratización y que basado en la tecnología de la web semántica.</td>
+      <td><img class="image" src="web3.0.png" alt="Web 3.0"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Web 4.0</td>
+      <td>A web 4.0 es como denominamos a la internet de las máquinas que entienden a los humanos y que aprenden cuanto más se usan (machine learning).</td>
+      <td><img class="image" src="web4.jpeg" alt="Web 4.0"></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
